@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="header">
+        <div class="name">{{user.fullName}}</div>
+        <div class="contact-info">
+          {{user.city}}, {{user.country}} | {{user.email}} | {{user.phone}} | LinkedIn: <a href="https://linkedin.com/in/chadrack-kavula-mulamba-67457318b/" target="_blank">{{user.linkedin}}</a>
+        </div>
+      </div>
+    
+      <div class="section">
+        <h2>Profile Summary</h2>
+        <p>{{user.profile}}</p>
+      </div>
+    
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>{{education.qualification}}</strong> - {{education.institutionName}}, {{education.year}}</li>
+        </ul>
+      </div>
+    
+      <div class="section">
+        <h2>Work Experience</h2>
+        {{#each workExperience}}
+        <ul>  
+          <li>
+            
+            <strong>{{jobTitle}}</strong><br>
+            <em>{{company}} - {{date}}</em><br>
+            {{description}}
+          </li>
+          </ul>
+          {{/each}}
+          {{#each workExperience}}
+          <ul>
+            <li>
+                <strong>{{jobTitle1}}</strong><br>
+                <em>{{company1}} - {{date1}}</em><br>
+                {{description1}}
+              </li>
+          </ul>
+          {{/each}}
+          
+         
+        </ul>
+        
+      </div>
+    
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>{{Skills.skill1}}</li>
+          <li>{{Skills.skill2}}</li>
+          <li>{{Skills.skill3}}</li>
+        </ul>
+      </div>
+    
+      <div class="section">
+        <h2>Languages</h2>
+        <ul>
+          <li>{{Languages.language1}}</li>
+          <li>{{Languages.language2}}</li>
+        </ul>
+      </div>
+    
+      <div class="section">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+      </div>
 </body>
 </html>

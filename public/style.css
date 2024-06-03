@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+  }
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .section ul li {
+    margin-bottom: 5px;
+  }

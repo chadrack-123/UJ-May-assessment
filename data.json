@@ -1,38 +1,47 @@
 {
     "user" : {
-        "fullName" : "",
+        "fullName" : "Chadrack Kavula Mulamba",
         "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "phone" : "+27 74 513 9343",
+        "email" : "chadrackmulamba2@gmail.com",
+        "linkedin": "CK Mulamba",
+        "city":"Johannesburg",
+        "country":"South Africa",
+        "profile":"Experienced software developer with a strong background in designing, implementing, and maintaining cutting-edge software applications. Skilled in full-stack development, with a deep proficiency in backend development using Python frameworks."
+
+        
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University Of Johannesburg",
+        "qualification" : "Honours in Inforation Systems",
+        "completed" : "Completed",
+        "year":"2023"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "Languages" : {
+        "language1" : "English",
+        "language2":"French"
+
+       
     },
-    "favouriteSubjects" : [
+    "Skills":{
+        "skill1": "Coding",
+        "skill2": "Python",
+        "skill3":"Web Development"
+
+    },
+    "workExperience" : [
         {
-            "name" : "",
-            "description" : ""
+            "jobTitle" : "Software Developer",
+            "date" : "2023",
+            "company":"Dnko Technologies",
+            "description":"Working with Python to digitalize the CBE department"
         },
         {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
+            "jobTitle1" : "Tutor",
+            "date1" : "2022",
+            "company1":"University of Johannesburg",
+            "description1":"Tutoring Software Developemnt to first years at the University of Johannesburg"
         }
+        
     ]
 }
